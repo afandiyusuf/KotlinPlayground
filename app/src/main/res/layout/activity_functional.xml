@@ -1,0 +1,71 @@
+<LinearLayout android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingHorizontal="24dp"
+    android:gravity="top">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textColor="@color/mazarine_blue"
+        android:text="@string/output"
+        android:layout_marginVertical="12dp"/>
+
+    <TextView
+        android:id="@+id/outputFunctional"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:textSize="14sp"
+        android:textColor="@color/mazarine_blue"
+        android:background="@drawable/text_output"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp">
+        <Button
+            android:id="@+id/btnHighOrderFunction"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:text="High Order Function"/>
+        <Button
+            android:id="@+id/btnMapFlatMap"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:text="Map and FlatMap"/>
+        <Button
+            android:id="@+id/btnWith"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:text="With"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnZip"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:text="Take, Drop, Zip"/>
+        <Button
+            android:id="@+id/btnChainFunction"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:text="Chain function"/>
+        <Button
+            android:id="@+id/btnLazySequence"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:text="Lazy Sequence"/>
+    </LinearLayout>
+</LinearLayout>

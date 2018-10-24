@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Kotlin Playground</string>
+    <string name="main_menu_basic">Basic</string>
+    <string name="main_menu_functional">Functional</string>
+    <string name="main_menu_object">Object Orientation</string>
+    <string name="basic_description">
+        variable / data types, null safety, conditional if / when, collection, looping for / while,
+        functions
+    </string>
+    <string name="functional_description">
+       lambdas, high-order function, map / flatMap, take / drop, zip, chain functions, lazy sequences, with
+    </string>
+    <string name="object_description">
+        classes, getter/setters, constructor, extension function, data classes, enum, inheritance
+    </string>
+    <string name="output">Output</string>
+</resources>

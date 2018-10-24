@@ -1,0 +1,73 @@
+<LinearLayout android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingHorizontal="24dp"
+    android:gravity="top">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textColor="@color/mazarine_blue"
+        android:text="@string/output"
+        android:layout_marginVertical="12dp"/>
+
+    <TextView
+        android:id="@+id/outputBasic"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:textSize="14sp"
+        android:textColor="@color/mazarine_blue"
+        android:background="@drawable/text_output"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp">
+        <Button
+            android:id="@+id/btnDataTypes"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:text="Data Types"/>
+        <Button
+            android:id="@+id/btnNullSafety"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:text="Null Safety"/>
+        <Button
+            android:id="@+id/btnConditional"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:text="Conditional"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp">
+        <Button
+            android:id="@+id/btnCollection"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:text="Collection"/>
+        <Button
+            android:id="@+id/btnLooping"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:text="Looping"/>
+        <Button
+            android:id="@+id/btnFunction"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:text="Function"/>
+    </LinearLayout>
+
+</LinearLayout>

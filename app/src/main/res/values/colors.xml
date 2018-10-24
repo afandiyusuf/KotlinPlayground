@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00a8ff</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="pylon_blue">#00a8ff</color>
+    <color name="lynx_white">#f5f6fa</color>
+    <color name="mazarine_blue">#273c75</color>
+
+</resources>

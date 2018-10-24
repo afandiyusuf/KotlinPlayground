@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingHorizontal="24dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/buttonBasic"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="@string/main_menu_basic"
+            android:background="@drawable/button_primary"
+            android:layout_marginVertical="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:text="@string/basic_description"
+            android:textColor="@color/mazarine_blue"
+            android:textAlignment="center"
+            android:layout_marginBottom="12dp"/>
+
+        <Button
+            android:id="@+id/buttonFunctional"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="@string/main_menu_functional"
+            android:background="@drawable/button_primary"
+            android:layout_marginVertical="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:text="@string/functional_description"
+            android:textColor="@color/mazarine_blue"
+            android:textAlignment="center"
+            android:layout_marginBottom="12dp"/>
+
+        <Button
+            android:id="@+id/buttonOO"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="@string/main_menu_object"
+            android:background="@drawable/button_primary"
+            android:layout_marginVertical="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:text="@string/object_description"
+            android:textColor="@color/mazarine_blue"
+            android:textAlignment="center"
+            android:layout_marginBottom="12dp"/>
+
+    </LinearLayout>
+</RelativeLayout>
